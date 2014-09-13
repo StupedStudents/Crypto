@@ -156,7 +156,7 @@ string Hex_Xor(const string& s1,const string& s2){
     string result="";
     unsigned tmp1,tmp2;
     if(s1.length()!=s2.length()){
-        result ="Error, not simular lengths of strings";
+        result ="Error, not simular lengths of string";
         return result;
     }
     for(unsigned long long i=0;i<s1.length();i++ ){
